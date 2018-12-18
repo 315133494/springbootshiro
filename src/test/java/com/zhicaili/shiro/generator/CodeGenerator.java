@@ -55,11 +55,11 @@ public class CodeGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://47.106.140.79:3306/shiro?useUnicode=true&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/shiro?useUnicode=true&useSSL=false&characterEncoding=utf8");
         // dsc.setSchemaName("public"); 数据库 schema name
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("Li13534860556.");
+        dsc.setPassword("127.0.0.1");
         mpg.setDataSource(dsc);
 
         // 包配置
