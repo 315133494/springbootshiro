@@ -1,0 +1,17 @@
+<!--top-Header-menu-->
+<div  th:fragment="top">
+<div id="user-nav" class="navbar navbar-inverse" >
+    <ul class="nav">
+        <li  class="dropdown" id="profile-messages" >
+            <a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle">
+                <i class="icon icon-user"></i>
+                <span class="text">欢迎 <span th:text="${session.userSession.username}"></span></span>
+            </a>
+        </li>
+
+        <li class=""><a href="logout"><i class="icon icon-share-alt"></i> <span class="text">注销</span></a></li>
+    </ul>
+</div>
+
+<!--sidebar-menu-->
+</div>
